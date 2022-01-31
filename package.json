@@ -1,21 +1,31 @@
 {
     "name": "Team-Profile-Generator",
     "version": "1.0.0",
-    "description": "",
+    "description": "Command-line app to build an HTML page for a software team's profile.",
     "main": "index.js",
+    "directories": {
+      "lib": "lib"
+    },
     "scripts": {
-      "start": "node index",
-      "watch": "nodemon index",
       "test": "jest"
     },
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "keywords": [
+      ""
+    ],
     "author": "",
     "license": "ISC",
+    "bugs": {
+
+    },
+    "homepage": "",
     "dependencies": {
-      "chalk": "^2.4.1",
-      "inquirer": "^6.2.1"
+      "inquirer": "^8.2.0"
     },
     "devDependencies": {
-      "jest": "^24.8.0"
+      "jest": "27.3.1"
     }
   }
-  
